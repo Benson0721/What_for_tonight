@@ -39,7 +39,7 @@ export default async function RecommendationsPage({
   return (
     <main className="flex h-full flex-col px-5 pb-8 pt-8">
       <AppScreen className="flex min-h-0 flex-1 flex-col">
-        <div className="flex min-h-0 flex-1 flex-col overflow-y-auto p-6">
+        <div className="app-scroll flex min-h-0 flex-1 flex-col overflow-y-auto p-6">
           <h1 className="text-2xl font-semibold">今晚為你挑了 3 個選擇</h1>
 
           {recommendations.length > 0 ? (

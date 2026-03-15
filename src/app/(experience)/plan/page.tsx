@@ -17,7 +17,7 @@ export default async function PlanPage({ searchParams }: PlanPageProps) {
   return (
     <main className="flex h-full flex-col px-5 pb-8 pt-8">
       <AppScreen className="flex min-h-0 flex-1 flex-col">
-        <div className="flex min-h-0 flex-1 flex-col overflow-y-auto p-6">
+        <div className="app-scroll flex min-h-0 flex-1 flex-col overflow-y-auto p-6">
           <h1 className="text-3xl font-semibold">先選幾個今晚條件</h1>
           <div className="mt-6">
             <PlanForm initialFilters={filters} />

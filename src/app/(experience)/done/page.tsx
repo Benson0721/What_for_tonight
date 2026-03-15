@@ -48,7 +48,7 @@ export default async function DonePage({ searchParams }: DonePageProps) {
           <Image src="/intro2.png" alt="已選活動封面" fill className="object-cover" />
           <div className="relative z-10 h-full" />
         </div>
-        <div className="flex min-h-0 flex-1 flex-col overflow-y-auto p-6">
+        <div className="app-scroll flex min-h-0 flex-1 flex-col overflow-y-auto p-6">
           <h1 className="text-3xl font-semibold">今晚就從這個開始</h1>
           <article className="mt-6 rounded-[28px] border border-[var(--color-border)] bg-[var(--color-panel-strong)] p-5 shadow-[0_18px_40px_rgba(0,0,0,0.18)]">
             <div className="flex flex-col gap-2">

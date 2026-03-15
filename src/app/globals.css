@@ -123,6 +123,38 @@ select {
   display: none;
 }
 
+.app-scroll {
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(245, 238, 233, 0.38) transparent;
+  overscroll-behavior-y: contain;
+}
+
+.app-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.app-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.app-scroll::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: linear-gradient(
+    180deg,
+    rgba(245, 238, 233, 0.48) 0%,
+    rgba(216, 200, 192, 0.68) 100%
+  );
+}
+
+.app-scroll::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(245, 238, 233, 0.62) 0%,
+    rgba(216, 200, 192, 0.82) 100%
+  );
+}
+
 @keyframes vibeFloat {
   0%,
   100% {
